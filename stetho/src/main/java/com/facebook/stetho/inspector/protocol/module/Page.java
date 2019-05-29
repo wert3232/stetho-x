@@ -8,7 +8,7 @@
 package com.facebook.stetho.inspector.protocol.module;
 
 import android.content.Context;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import com.facebook.stetho.common.ProcessUtil;
 import com.facebook.stetho.inspector.domstorage.SharedPreferencesHelper;
 import com.facebook.stetho.inspector.jsonrpc.JsonRpcPeer;

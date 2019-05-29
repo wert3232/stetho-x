@@ -7,7 +7,7 @@
 
 package com.facebook.stetho.inspector.elements.android.window;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import android.view.View;
 
 import java.lang.reflect.Field;

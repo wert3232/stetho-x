@@ -7,7 +7,7 @@
 
 package com.facebook.stetho.rhino;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import android.util.Log;
 import com.facebook.stetho.common.LogUtil;
 import com.facebook.stetho.inspector.console.CLog;

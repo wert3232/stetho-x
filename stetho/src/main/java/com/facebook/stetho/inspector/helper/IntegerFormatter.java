@@ -9,7 +9,7 @@ package com.facebook.stetho.inspector.helper;
 
 import android.annotation.TargetApi;
 import android.os.Build;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import android.view.ViewDebug;
 
 public class IntegerFormatter {

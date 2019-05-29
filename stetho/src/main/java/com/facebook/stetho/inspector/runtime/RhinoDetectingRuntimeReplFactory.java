@@ -8,7 +8,7 @@
 package com.facebook.stetho.inspector.runtime;
 
 import android.content.Context;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import com.facebook.stetho.common.LogUtil;
 import com.facebook.stetho.inspector.console.RuntimeRepl;
 import com.facebook.stetho.inspector.console.RuntimeReplFactory;

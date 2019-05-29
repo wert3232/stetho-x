@@ -9,7 +9,7 @@ package com.facebook.stetho.inspector.elements.android.window;
 
 import android.content.Context;
 import android.os.Build;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import android.view.View;
 
 import com.facebook.stetho.common.Util;

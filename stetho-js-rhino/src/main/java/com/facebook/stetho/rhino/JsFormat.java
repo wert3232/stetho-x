@@ -7,7 +7,7 @@
 
 package com.facebook.stetho.rhino;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 
 import java.util.Locale;
 import java.util.regex.Matcher;
