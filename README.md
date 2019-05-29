@@ -1,5 +1,5 @@
-# Stetho [![Build Status](https://travis-ci.org/facebook/stetho.svg?branch=master)](https://travis-ci.org/facebook/stetho)
-
+# Stetho with AndroidX [![Build Status](https://travis-ci.org/facebook/stetho.svg?branch=master)](https://travis-ci.org/facebook/stetho)
+From: https://github.com/facebook/stetho
 [Stetho](https://facebook.github.io/stetho) is a sophisticated debug bridge for Android applications. When enabled,
 developers have access to the Chrome Developer Tools feature natively part of
 the Chrome desktop browser. Developers can also choose to enable the optional
@@ -16,30 +16,6 @@ begin.
 Download [the latest JARs](https://github.com/facebook/stetho/releases/latest) or grab via Gradle:
 ```groovy
 implementation 'com.facebook.stetho:stetho:1.5.1'
-```
-or Maven:
-```xml
-<dependency>
-  <groupId>com.facebook.stetho</groupId>
-  <artifactId>stetho</artifactId>
-  <version>1.5.1</version>
-</dependency>
-```
-
-Only the main `stetho` dependency is strictly required; however, you may also wish to use one of the network helpers:
-
-```groovy
-implementation 'com.facebook.stetho:stetho-okhttp3:1.5.1'
-```
-or:
-```groovy
-implementation 'com.facebook.stetho:stetho-urlconnection:1.5.1'
-```
-
-You can also enable a JavaScript console with:
-
-```groovy
-implementation 'com.facebook.stetho:stetho-js-rhino:1.5.1'
 ```
 For more details on how to customize the JavaScript runtime see [stetho-js-rhino](stetho-js-rhino/).
 
