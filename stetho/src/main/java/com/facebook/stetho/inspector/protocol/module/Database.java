@@ -49,7 +49,7 @@ public class Database implements ChromeDevtoolsDomain {
    * Note that when this limit is exceeded, a dummy row will be introduced that indicates
    * truncation occurred.
    */
-  private static final int MAX_EXECUTE_RESULTS = 250;
+  public static int maxExecuteResults = 250;
 
   /**
    * Maximum length of a BLOB field before we stop trying to interpret it and just
@@ -142,7 +142,7 @@ public class Database implements ChromeDevtoolsDomain {
         public ExecuteSQLResponse handleSelect(Cursor result) throws SQLiteException {
           ExecuteSQLResponse response = new ExecuteSQLResponse();
           response.columnNames = Arrays.asList(result.getColumnNames());
-          response.values = flattenRows(result, MAX_EXECUTE_RESULTS);
+          response.values = flattenRows(result, maxExecuteResults);
           return response;
         }
 

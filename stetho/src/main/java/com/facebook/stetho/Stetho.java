@@ -94,6 +94,11 @@ public class Stetho {
     return new InitializerBuilder(context);
   }
 
+
+  public static void initializeWithDefaults(final Context context,int maxRows){
+    Database.maxExecuteResults = maxRows;
+    initializeWithDefaults(context);
+  }
   /**
    * Start the listening server.  Most of the heavy lifting initialization is deferred until the
    * first socket connection is received, allowing this to be safely used for debug builds on
