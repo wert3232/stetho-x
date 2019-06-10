@@ -18,8 +18,8 @@ begin.
 
 ### use
 ```kotlin
-//(Application,dbTableMaxRows)
-Stetho.initializeWithDefaults(this, 10000)
+//(Application, maxExecuteResults)
+Stetho.initializeWithDefaults(this, 1000)
             OkHttpClient.Builder()
                 .addNetworkInterceptor(StethoInterceptor())
                 .build()
