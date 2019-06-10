@@ -13,8 +13,8 @@ begin.
 ## Set-up
 
 ### Download and implementation files
-[stetho-x.aar](https://github.com/wert3232/stetho-x/raw/master/out/stetho-x.aar) 
-[stetho-x-okhttp3.aar](https://github.com/wert3232/stetho-x/raw/master/out/stetho-x-okhttp3.aar) 
+[stetho-x.aar](https://github.com/wert3232/stetho-x/raw/master/out/stetho-x.aar)  
+[stetho-x-okhttp3.aar](https://github.com/wert3232/stetho-x/raw/master/out/stetho-x-okhttp3.aar)  
 
 ### use
 ```kotlin
