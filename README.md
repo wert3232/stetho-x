@@ -20,6 +20,6 @@ begin.
 ```kotlin
 //(Application, maxExecuteResults)
 Stetho.initializeWithDefaults(this, 1000)
-            OkHttpClient.Builder()
-                .addNetworkInterceptor(StethoInterceptor())
-                .build()
+OkHttpClient.Builder()
+    .addNetworkInterceptor(StethoInterceptor())
+    .build()
